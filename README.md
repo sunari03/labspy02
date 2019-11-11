@@ -2,18 +2,27 @@
 
 #!usr/bin/python3
 
+
 a = int(input("Masukkan bilangan A:  "))
+
 b = int(input("Masukkan bilangan B:  "))
+
 c = int(input("Masukkan bilangan C:  "))
 
 
 if a > b and a > c:
-    terbesar = a
+
+   terbesar = a
+   
 else:
-    if b > c and b > a:
-     terbesar = b
-    else:
-     terbesar = c
+
+   if b > c and b > a:
+   
+   terbesar = b
+   
+   else:
+    
+   terbesar = c
 
 print("jadi bilangan yang terbesar adalah :",terbesar)
 
